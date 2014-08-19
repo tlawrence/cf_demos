@@ -6,6 +6,7 @@ gem 'sinatra'
 gem 'bson_ext'
 
 group :development,:test do
+  gem 'rake'
   gem 'rspec'
   gem 'rack-test'
 end
